@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.content{
+    padding-left: 80px;
+    padding-top: 100px;
+}
+.btn{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.about{
+    padding-left: 80px;
+    display: flex;
+}
+.abt{
+    padding-left: 80px;
+    /* width: 600px; */
+}
+.abt1{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.resume{
+    padding-left: 80px;
+    padding-top: 10px;
+    text-shadow: 5px 20px 1px white;
+}
+.card{
+    padding-left: 80px;
+    padding-top: 10px;
+    border: 2px solid yellow;
+    width: 300px;
+    height: 200px;
+}
+.services{
+    padding-left: 80px;
+    padding-top: 10px;
+    background-color: black;
+    display: flex;
+    gap: 20px;
+}
+.service-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px 0 grey;
+    padding: 20px;
+    margin: 10px;
+}
+.service-card:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.resume-cards{
+    display: flex;
+    gap: 20px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.center{
+    text-align: center;
+    padding-top: 20px;
+}
+.image{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.hero {
+    display: flex;
+    align-items: center;            
+    gap: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    color:white;
+    text-decoration: none;
+}
+.header:hover{
+    color:orange;
+    transition: 0.5s;
+    transform:translate(0px, -10px);
+    text-decoration: underline;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    position:sticky;
+    align-items: first baseline;
+    top: 0;
+    background-color:black;
+}
+.image1{
+    padding-left: 80px;
+    padding-top: 100px;
+    display: flex;
+}
+.heat{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.link{
+    display:none;
+}
+@media (max-width:1000px) {
+    body{
+        margin: 0px;
+    }
+}
+@media (max-width:700px) {
+    .menu{
+        display: none;
+    }
+    .link{
+        display: block;
+    }
+}

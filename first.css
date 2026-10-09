@@ -1,0 +1,20 @@
+.header{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.primary-color{
+    color: green;
+}
+hr{
+    color:red;
+}
+.edu{
+    border-collapse: collapse;
+}
+.tech{
+    background-color: green;
+}
+.exp{
+    background-color: aqua;
+}
